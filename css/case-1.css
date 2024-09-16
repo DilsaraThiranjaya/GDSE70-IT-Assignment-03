@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+.size-1-square {
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+}
+
+.size-2-square {
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  background-color: white;
+}
+
+.size-3-square {
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  background-color: white;
+}
+
+.size-4-red-square {
+  height: 15vh;
+  width: 15vh;
+  position: absolute;
+  background-color: red;
+}
+
+.size-5-square {
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  background-color: white;
+}
+
+.size-5-red-square {
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  background-color: red;
+}
+
+.square-top-left {
+  background-color: red;
+}
+
+.square-top-right {
+  background-color: green;
+  right: 0%;
+}
+
+.square-bottom-left {
+  background-color: orange;
+  bottom: 0%;
+}
+
+.square-bottom-right {
+  background-color: rgb(219, 44, 161);
+  bottom: 0%;
+  right: 0%;
+}
+
+.top-left-half-circle {
+  border-radius: 0% 0% 100% 0%;
+}
+
+.top-right-half-circle {
+  right: 0%;
+  border-radius: 0% 0% 0% 100%;
+}
+
+.bottom-left-half-circle {
+  bottom: 0%;
+  border-radius: 0% 100% 0% 0%;
+}
+
+.bottom-right-half-circle {
+  bottom: 0%;
+  right: 0%;
+  border-radius: 100% 0% 0% 0%;
+}
+
+.center-circle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}
+
+.center-square {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
