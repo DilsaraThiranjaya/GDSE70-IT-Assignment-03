@@ -28,7 +28,7 @@ body {
 .profile {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 500px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -96,50 +96,22 @@ footer {
   opacity: 75%;
 }
 
-
-
-/* .test-div {
-  height: 300px;
+.detail-container {
+  width: 30vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+  margin: 20px;
 }
 
-.sub-div {
-  display: none;
+span {
+  color: white;
+  font-weight: 500;
 }
 
-.main-menu {
-  padding: 0px;
+h2 {
+  font-size: 30px;
+  margin: 5px;
+  margin-left: 85px;
 }
-
-.main-menu li {
-  display: inline-block;
-  width: 100px;
-  list-style: none;
-  background-color: blueviolet;
-  padding: 10px 20px;
-  color: red;
-}
-
-.sub-menu {
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-}
-
-.sub-menu li {
-  background-color: transparent;
-  border-top: 0px;
-  border-right: 0px;
-  border-bottom: 2px;
-  border-left: 0px;
-  border-style: solid;
-  border-color: blue;
-  boreder-
-}
-
-.main-menu li:hover .sub-div {
-  display: flex;
-  flex-direction: column;
-}  */
